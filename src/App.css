@@ -65,12 +65,16 @@ button{
   opacity:0.7;
 }
 
-.priceCard:hover{
+.priceCard0:hover,
+.priceCard1:hover,
+.priceCard2:hover {
   position:relative;
   bottom:5px;
   box-shadow: 0 3px 20px darkslategray;
 }
-.priceCard:hover button {
+.priceCard0:hover button,
+.priceCard1:hover button,
+.priceCard2:hover button {
   opacity:1;
 }
 button:hover{
