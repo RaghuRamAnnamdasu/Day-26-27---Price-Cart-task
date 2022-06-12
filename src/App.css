@@ -1,0 +1,87 @@
+.section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-height: content;
+}
+
+.mainEnclosure{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:40px !important;
+  height: min-content;
+  max-width: 95% !important;
+  background-image:linear-gradient(to right, #0062E6, #33AEFF) !important ;
+}
+
+.priceCard0,
+.priceCard1,
+.priceCard2{
+  min-width: 30%;
+  margin:12px 12px;
+  height: max-content ;
+  border-radius: 12px !important;
+}
+
+.title{
+  text-align: center;
+  opacity:0.6;
+  margin:8px 0;
+}
+
+.costWrapper {
+  font-size: 50px;
+  display:inline-flex !important;
+  justify-content: center;
+  width:100%;
+  align-items: baseline;
+}
+
+.costWrapper .month {
+  font-size: 13px;
+  font-weight: 600;
+ 
+}
+
+.check, .close {
+  display : flex;
+  margin-bottom: 16px;;
+}
+
+.close span {
+  opacity:0.6;
+}
+
+button{
+  width:100%;
+  padding:16px !important;
+  border-radius: 100px !important;
+  font-size: 12.8px !important;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  background-color: #0d6efd !important;
+  opacity:0.7;
+}
+
+.priceCard:hover{
+  position:relative;
+  bottom:5px;
+  box-shadow: 0 3px 20px darkslategray;
+}
+.priceCard:hover button {
+  opacity:1;
+}
+button:hover{
+  background-color: #0b5ed7 !important;
+}
+
+.icon{
+  font-weight: bolder;
+}
+.priceCard1 .check0,
+.priceCard2 .check0,
+.priceCard2 .check6{
+  font-weight: bold;
+}
